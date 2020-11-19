@@ -34,6 +34,7 @@ img {
   width: 100%;
 }
 
+
 .navbar {
   background-color: #047aed;
   color: #fff;
@@ -294,19 +295,54 @@ lg {
   justify-self: flex-end;
 }
 
-.features-sub-head img {
-  width: 250px;
-  justify-self: flex-end;
-}
+
 
 .features-sub-head {
   background-color: #fff;
 }
 
-.features-sub-head img {
- 
-  background-color: #fff;
+.dots {
+	display: flex;
+	padding: 10px;
 }
+
+#dot-1{
+	background-color:  #FC6058;
+}
+
+#dot-2{
+	background-color:  #FEC02F;
+}
+
+#dot-3{
+	background-color:  #2ACA3E;
+}
+
+.browser-dot{
+	background-color: black;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	margin: 5px;
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+}
+
+.npm-container {
+  background-color: #002240;
+  border-radius: 1rem;
+  width: 50%;
+  height: 50%;
+}
+
+.npm-container p {
+  color: #fff;
+  text-align: center;
+}
+
 
 .features-main .card .fa-server i {
   background-color: #333;
@@ -585,5 +621,9 @@ code, pre {
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .showcase {
+    align-content: center;
   }
 }
